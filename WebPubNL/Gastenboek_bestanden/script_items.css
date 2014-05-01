@@ -1,0 +1,29 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// 	WebKlik.nl CSS                                                                            		//
+// 	El Ni�no VOF                                                                                     //
+// 	http://www.elnino-ict.com                                                                       //
+// 	info@elnino-ict.nl                                                                              //
+//                                                                                                  //
+// 	Copyright (c) El Ni�no, Enschede                                                                 //
+// 	Alle rechten voorbehouden.                                                                      //
+//                                                                                                  //
+//  Deze applicatie is auteursrechtelijk beschermd. Verveelvuldiging en/of                          //
+//  distributie van deze applicatie, en/of delen daarvan, is verboden en strafbaar.                 //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// 	Author: Marc ter Horst																			//
+//  Packaged: 03-03-2008                                                                            //
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.initial_hidden {
+	display: none;
+}
+
+.drag {
+	background-color: #AED080;
+	font-weight: bold;
+}

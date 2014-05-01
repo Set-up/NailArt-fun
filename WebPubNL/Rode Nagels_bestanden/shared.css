@@ -1,0 +1,111 @@
+.clearboth { clear: both; }
+
+/******************
+ * Social buttons *
+ *****************/
+.socialbuttons { position: relative; }
+
+/* We don't want the values from the template! */
+.socialbuttons a:hover { border: none !important; }
+.socialbuttons a { border-bottom: none !important; }
+
+.socialbuttons_nw {
+    margin-left: 1em;
+    margin-top: .5em;
+    float: left;
+}
+
+.socialbuttons_ne {
+    margin-right: 1em;
+    margin-top: .5em;
+    float: right;
+}
+
+.socialbuttons_sw {
+    margin-left: 1em;
+    margin-bottom: .75em;
+    margin-top: .25em;
+    float: left;
+}
+
+.socialbuttons_se {
+    margin-right: 1em;
+    margin-bottom: .75em;
+    margin-top: .25em;
+    float: right;
+}
+
+/* Fix for chrome */
+.socialbuttons_style2 { min-width: 250px; }
+
+/**************
+ * Gastenboek *
+ *************/
+.guestbookForm label {
+    display: block;
+    margin-bottom: .3em;
+}
+
+.guestbookForm input {
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    padding: .3em .5em;
+}
+
+.guestbookForm .submit {
+    margin-top: 1em;
+    cursor: pointer;
+    border: 1px solid #333;
+}
+
+/***************
+ * Link beheer *
+ **************/
+
+.lb_location .lb_banner {
+    display: none;
+}
+
+.lb_location .lb_banner.visible {
+    display: block;
+}
+
+/********************
+ * Mobiele weergave *
+ *******************/
+#mobileMenu {
+  display: none;
+}
+
+/*
+@media only screen and (max-width: 767px) {
+    #ads_bar, #ads_left, #ads_right, #ads_header, #ads_footer {
+        display: none;
+    }
+
+    #mobileMenu {
+      display: block;
+      padding: 5px;
+    }
+
+    #mobileMenu select {
+        width: 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    body, html {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header {
+        background-image: none;
+    }
+}
+*/

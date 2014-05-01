@@ -1,0 +1,18 @@
+.flt_lft {
+        float: left;
+    }
+    
+    .frm {
+        width: 450px;
+    }
+    
+    .gbrow {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    
+    label {
+        display: block;
+        width: 150px;
+        
+    }
